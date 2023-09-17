@@ -48,3 +48,7 @@ a[download] {
 a[download]:hover {
     background-color: #ff5733; 
 }
+.red-bold {
+    color: red;
+    font-weight: bold;
+}
