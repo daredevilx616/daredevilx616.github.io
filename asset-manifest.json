@@ -1,22 +1,20 @@
 {
   "files": {
     "main.css": "/static/css/main.bec140ec.css",
-    "main.js": "/static/js/main.f303bf82.js",
-    "static/media/BCPrediction.jpg": "/static/media/BCPrediction.70a5e25d57df896c426f.jpg",
-    "static/media/CPPrediction.jpg": "/static/media/CPPrediction.110d88bca59236015123.jpg",
-    "static/media/Crwn.jpg": "/static/media/Crwn.41e4de711bb14b7851df.jpg",
+    "main.js": "/static/js/main.54802a42.js",
+    "static/media/twitter_bot.png": "/static/media/twitter_bot.3352323f01f636caddac.png",
     "static/media/avatar.jpg": "/static/media/avatar.d8fc6e1fc14417a98f0f.jpg",
-    "static/media/Chumkin.jpg": "/static/media/Chumkin.27c3e50422a93ce38d57.jpg",
-    "static/media/HDPrediction.jpg": "/static/media/HDPrediction.0fb1b061374b2ddbbf76.jpg",
-    "static/media/Tango.jpg": "/static/media/Tango.b51ae169ebbea555a7da.jpg",
+    "static/media/mood.png": "/static/media/mood.f3d97e33e1827b8ca3fb.png",
+    "static/media/transit.png": "/static/media/transit.4227900952814b0a8390.png",
     "static/media/Resume.pdf": "/static/media/Resume.9ccddf9ddaf81c844b3e.pdf",
+    "static/media/leadless.png": "/static/media/leadless.4a2320a7e32fc7d7cbf0.png",
     "static/media/spinner.svg": "/static/media/spinner.b9b995c8706896476094f1d153fb86cf.svg",
     "index.html": "/index.html",
     "main.bec140ec.css.map": "/static/css/main.bec140ec.css.map",
-    "main.f303bf82.js.map": "/static/js/main.f303bf82.js.map"
+    "main.54802a42.js.map": "/static/js/main.54802a42.js.map"
   },
   "entrypoints": [
     "static/css/main.bec140ec.css",
-    "static/js/main.f303bf82.js"
+    "static/js/main.54802a42.js"
   ]
 }
