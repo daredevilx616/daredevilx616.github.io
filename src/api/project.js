@@ -1,29 +1,28 @@
-// import Crwn from "../assets/portfolio/Crwn.jpg"
-import mate from "../assets/portfolio/mood.png"
+import social from "../assets/portfolio/logo.png"
+import mate from "../assets/portfolio/ic_launcher.png"
 import transit from "../assets/portfolio/transit.png"
 import Leadless from "../assets/portfolio/leadless.png"
 import XBot from "../assets/portfolio/twitter_bot.png"
 import BrickBreaker from "../assets/portfolio/brick-breaking.png"
 
-// eslint-disable-next-line import/no-anonymous-default-export
 export default [
-  // {
-  //   img: Crwn,
-  //   title: "CRWN CLOTHING",
-  //   desc: "A React E-commerce Progressive Web App which has Authentication, Database, CRUD, Payment features.",
-  //   demo: "https://sgcr7crwn-live.herokuapp.com/",
-  //   source: "https://github.com/sagnikghoshcr7/crwn-clothing",
-  // },
+  {
+    img: social,
+    title: "Social Weave",
+    desc: "Welcome to Social Weave, a social media platform designed to redefine the way individuals interact online. Developed as part of our Mobile App Development course, this project aims to provide a seamless and intuitive social media experience centered around connectivity and meaningful interactions.",
+    demo: "https://www.youtube.com/watch?v=POVYjwjuAos",
+    source: "https://github.com/appledcrab/Social-Media-App",
+  },
   {
     img: mate,
     title: "MoodMate",
     desc: "The MoodMate flutter app is a mood tracking application designed to help users track their emotions and journal their daily experiences. With MoodMate, users can easily log their mood, write journal entries, and even attach images to capture memorable moments. This app aims to promote self-awareness and mindfulness by encouraging users to reflect on their emotions and experiences.",
-    demo: "https://github.com/appledcrab/MoodMate/blob/main/README.md",
+    demo: "https://www.youtube.com/watch?v=MDadHKHNlsU",
     source: "https://github.com/appledcrab/MoodMate",
   },
   {
     img: transit,
-    title: "RIDE WISELY",
+    title: "RIDE WISELY aka Transitify",
     desc: "Designed and built a mobile app in Flutter using Dart to promote public transportation by demonstrating its cost-effectiveness and eco-friendliness, incorporating Google Maps, Directions, and Location APIs for real-time distance, travel time, and route options, utilized MARTA API to display public transportation routes, and implemented Uber & Lyft APIs to provide real-time prices, distances, and estimated travel times for various transportation options.",
     demo: "https://github.com/Motaphe/Transitify/blob/main/README.md",
     source: "https://github.com/Motaphe/Transitify",
