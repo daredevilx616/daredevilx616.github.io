@@ -14,7 +14,6 @@ import Experience from "./pages/Experience"
 import Skills from "./pages/Skills"
 import Contact from "./pages/Contact"
 import Projects from "./pages/Projects"
-// import Achievements from "./pages/Achievements"
 
 function MainContent() {
   return (
@@ -38,7 +37,6 @@ function MainContent() {
         <Experience />
         <Skills />
         <Projects />
-        {/* <Achievements /> */}
         <Contact />
       </div>
     </>

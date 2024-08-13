@@ -1,52 +1,52 @@
-import Crwn from "../assets/portfolio/Crwn.jpg"
-import Tango from "../assets/portfolio/Tango.jpg"
-import Chumkin from "../assets/portfolio/Chumkin.jpg"
-import BCPrediction from "../assets/portfolio/BCPrediction.jpg"
-import CPPrediction from "../assets/portfolio/CPPrediction.jpg"
-import HDPrediction from "../assets/portfolio/HDPrediction.jpg"
+// import Crwn from "../assets/portfolio/Crwn.jpg"
+import mate from "../assets/portfolio/mood.png"
+import transit from "../assets/portfolio/transit.png"
+import Leadless from "../assets/portfolio/leadless.png"
+import XBot from "../assets/portfolio/twitter_bot.png"
+import BrickBreaker from "../assets/portfolio/brick-breaking.png"
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default [
+  // {
+  //   img: Crwn,
+  //   title: "CRWN CLOTHING",
+  //   desc: "A React E-commerce Progressive Web App which has Authentication, Database, CRUD, Payment features.",
+  //   demo: "https://sgcr7crwn-live.herokuapp.com/",
+  //   source: "https://github.com/sagnikghoshcr7/crwn-clothing",
+  // },
   {
-    img: Crwn,
-    title: "CRWN CLOTHING",
-    desc: "A React E-commerce Progressive Web App which has Authentication, Database, CRUD, Payment features.",
-    demo: "https://sgcr7crwn-live.herokuapp.com/",
-    source: "https://github.com/sagnikghoshcr7/crwn-clothing",
+    img: mate,
+    title: "MoodMate",
+    desc: "The MoodMate flutter app is a mood tracking application designed to help users track their emotions and journal their daily experiences. With MoodMate, users can easily log their mood, write journal entries, and even attach images to capture memorable moments. This app aims to promote self-awareness and mindfulness by encouraging users to reflect on their emotions and experiences.",
+    demo: "https://github.com/appledcrab/MoodMate/blob/main/README.md",
+    source: "https://github.com/appledcrab/MoodMate",
   },
   {
-    img: Tango,
-    title: "TANGO BROWSER",
-    desc: "Modern Browser App based on chromium & .NET Framework. Our Browser has all modern features that chrome has.",
-    demo: "https://github.com/MSAC-KIIT/TangoBrowser/blob/main/README.md",
-    source: "https://github.com/MSAC-KIIT/TangoBrowser",
+    img: transit,
+    title: "RIDE WISELY",
+    desc: "Designed and built a mobile app in Flutter using Dart to promote public transportation by demonstrating its cost-effectiveness and eco-friendliness, incorporating Google Maps, Directions, and Location APIs for real-time distance, travel time, and route options, utilized MARTA API to display public transportation routes, and implemented Uber & Lyft APIs to provide real-time prices, distances, and estimated travel times for various transportation options.",
+    demo: "https://github.com/Motaphe/Transitify/blob/main/README.md",
+    source: "https://github.com/Motaphe/Transitify",
   },
   {
-    img: Chumkin,
-    title: "CHUMKIN",
-    desc: "A Flutter Instagram Clone which has Authentication, Database, Profile, Image Uploading with Live Geolocation, Like & Comment features.",
-    demo: "https://github.com/sagnikghoshcr7/Chumkin/blob/master/README.md",
-    source: "https://github.com/sagnikghoshcr7/Chumkin",
+    img: Leadless,
+    title: "LeadLess - Awareness about Lead Poisoning",
+    desc: "Created a website to raise awareness about the harmful effects of lead poisoning, collecting datasets and performing data analysis and visualizations using Pandas, Matplotlib, and Folium to support the argument, and produced line graphs, bar graphs, and various maps, including a choropleth map showing the highest lead emissions from planes per US state using Plotly Express and DataFrame.",
+    demo: "https://github.com/daredevilx616/Hacklytics23/blob/main/analysis.ipynb",
+    source: "https://github.com/daredevilx616/Hacklytics23",
   },
   {
-    img: BCPrediction,
-    title: "BREAST CANCER PREDICTION",
-    desc: "Diagnosing Malignant versus Benign Breast Tumours via Machine Learning Techniques in High Dimensions. Logistc Regression, SVM and Decision Tree methods to classify data.",
-    demo: "https://github.com/sagnikghoshcr7/Breast-Cancer-Prediction/blob/master/model.ipynb",
-    source: "https://github.com/sagnikghoshcr7/Breast-Cancer-Prediction",
+    img: XBot,
+    title: "Twitter/X Automated Bot",
+    desc: "Deployed a Twitter/X bot that automatically tweets daily Bitcoin price highs and lows, scraped from a website, using BeautifulSoup and Tweepy for Twitter API interaction, and utilized schedule and random libraries for scheduling tweets and selecting images.",
+    demo: "https://x.com/The_BTC_Bot",
+    source: "https://github.com/daredevilx616/Twitter-Bot",
   },
   {
-    img: CPPrediction,
-    title: "CAR PRICE PREDICTION",
-    desc: "I'll use various machine learning algorithms to predict the price of used cars. Machine learning model with linear regression for car price prediction.",
-    demo: "https://github.com/sagnikghoshcr7/Car-Price-Prediction/blob/master/Predicting%20used%20car%20prices.ipynb",
-    source: "https://github.com/sagnikghoshcr7/Car-Price-Prediction",
-  },
-  {
-    img: HDPrediction,
-    title: "HEART DISEASE PREDICTION",
-    desc: "Machine Learning project to predict heart diseases. Predicting chance of heart disease in people using Regression and Decision Tree algorithms.",
-    demo: "https://github.com/sagnikghoshcr7/Heart-Disease-Prediction/blob/master/Heart%20Disease%20Prediction.ipynb",
-    source: "https://github.com/sagnikghoshcr7/Heart-Disease-Prediction",
+    img: BrickBreaker,
+    title: "BRICK BREAKING GAME",
+    desc: "Developed a simple Brick Breaking game in Python using a limited graphics library, implementing game mechanics like ball movement, paddle movement, and collision detection.",
+    demo: "",
+    source: "https://github.com/daredevilx616/Brick-Breaking-Game",
   },
 ]

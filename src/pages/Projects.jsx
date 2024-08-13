@@ -14,7 +14,7 @@ const Projects = ({ projects }) => {
 
   return (
     <Section id="projects" title="Personal Projects">
-      {/* <div className="cards">
+      <div className="cards">
         {items && items.map((card, index) => <Card card={card} key={index} />)}
       </div>
 
@@ -27,7 +27,7 @@ const Projects = ({ projects }) => {
             See more
           </div>
         )}
-      </div> */}
+      </div>
     </Section>
   )
 }
