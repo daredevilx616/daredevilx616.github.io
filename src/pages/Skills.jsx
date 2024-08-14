@@ -1,8 +1,8 @@
-import React, { useState } from "react"
+import React from "react"
 import Section from "../components/Section"
 import Skill from "../components/Skill"
-import { SiAndroidstudio, SiAngular, SiCss3, SiDart, SiDocker, SiElectron, SiFirebase, SiFlask, SiFlutter, SiGit, SiGithub, SiGitlab, SiHtml5, SiIntellijidea, SiJavascript, SiJupyter, SiKeras, SiKubernetes, SiMongodb, SiPostgresql, SiPostman, SiPython, SiReact, SiTensorflow, SiVisualstudiocode, SiVuedotjs } from "react-icons/si"
-import { BsTerminalFill } from "react-icons/bs"
+import { SiAndroidstudio, SiAzuredevops, SiAzurepipelines, SiDatabricks, SiCss3, SiDart, SiDocker, SiFirebase, SiFlask, SiFlutter, SiGit, SiGithub, SiHtml5, SiIntellijidea, SiJavascript, SiJupyter, SiKubernetes, SiMongodb, SiPostgresql, SiPostman, SiPython, SiReact, SiVisualstudiocode, SiJava, SiDjango, SiRubyonrails, SiMicrosoftazure, SiMicrosoftsqlserver } from "react-icons/si"
+import { DiJava, DiMysql, DiScala } from 'react-icons/di'
 
 const Skills = () => {
 
@@ -65,50 +65,6 @@ const Skills = () => {
     ],
   }
 
-  // const getData = () => {
-  //   fetch("https://api.github.com/users/sagnikghoshcr7/repos?per_page=100")
-  //     .then((res) => res.json())
-  //     .then((data) => setRepoItems(data))
-  // }
-
-  // useEffect(() => {
-  //   // Fetch from official api
-  //   getData()
-
-  //   // Offline api
-  //   // setRepoItems(items)
-  // }, [])
-
-  // useEffect(() => {
-  //   let languages = repoItems.reduce((total, item) => {
-  //     const { language, stargazers_count } = item
-  //     if (!language) return total
-
-  //     if (!total[language]) {
-  //       total[language] = {
-  //         label: language,
-  //         value: 1,
-  //         stars: stargazers_count,
-  //       }
-  //     } else {
-  //       total[language] = {
-  //         ...total[language],
-  //         value: total[language].value + 1,
-  //         stars: total[language].stars + 1,
-  //       }
-  //     }
-
-  //     return total
-  //   }, {})
-
-  //   const mostUsed = Object.values(languages)
-  //     .sort((a, b) => {
-  //       return b.value - a.value
-  //     })
-  //     .slice(0, 5)
-  //   setDataSource(mostUsed)
-  // }, [repoItems])
-
   const { skills, frameworks } = data
 
   const skillsJsx = skills.map((skill, index) => (
@@ -123,11 +79,6 @@ const Skills = () => {
     </div>
   ))
 
-  // // const languagesUsedChart = (
-  // //   <div className="col-md-6 py-1">
-  // //     <Pie3D data={dataSource} />
-  // //   </div>
-  // // )
 
   const SocialIcon = ({ icon }) => {
     return (
@@ -149,16 +100,19 @@ const Skills = () => {
       icon: <SiGithub />,
     },
     {
-      icon: <SiGitlab />,
+      icon: <SiAzuredevops />,
     },
   ]
 
   const iconsSet2 = [
-    // {
-    //   icon: <SiJava />,
-    // },
     {
       icon: <SiPython />,
+    },
+    {
+      icon: <DiJava />,
+    },
+    {
+      icon: <DiScala/>
     },
     {
       icon: <SiDart />,
@@ -166,20 +120,23 @@ const Skills = () => {
     {
       icon: <SiJavascript />,
     },
+    {
+      icon: <SiRubyonrails />,
+    },
+    {
+      icon: <DiMysql />,
+    },
   ]
 
   const iconsSet3 = [
-    {
-      icon: <SiTensorflow />,
-    },
-    {
-      icon: <SiKeras />,
-    },
     {
       icon: <SiFlask />,
     },
     {
       icon: <SiFlutter />,
+    },
+    {
+      icon: <SiDjango />,
     },
   ]
 
@@ -192,19 +149,22 @@ const Skills = () => {
     },
     {
       icon: <SiReact />,
-    },
-    {
-      icon: <SiAngular />,
-    },
-    {
-      icon: <SiVuedotjs />,
-    },
-    {
-      icon: <SiElectron />,
-    },
+    }
   ]
 
-  const iconsSet5 = [
+  const iconsSet5 = [   
+    {
+      icon: <SiMicrosoftazure />,
+    },    
+    {
+      icon: <SiDatabricks />,
+    },    
+    {
+      icon: <SiMicrosoftsqlserver />,
+    },
+    {
+      icon: <DiMysql />,
+    },
     {
       icon: <SiMongodb />,
     },
@@ -237,9 +197,6 @@ const Skills = () => {
     },
     {
       icon: <SiPostman />,
-    },
-    {
-      icon: <BsTerminalFill />,
     },
   ]
 

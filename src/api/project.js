@@ -3,6 +3,7 @@ import mate from "../assets/portfolio/ic_launcher.png"
 import transit from "../assets/portfolio/transit.png"
 import Leadless from "../assets/portfolio/leadless.png"
 import XBot from "../assets/portfolio/twitter_bot.png"
+import rec from "../assets/portfolio/rec.png"
 import BrickBreaker from "../assets/portfolio/brick-breaking.png"
 
 export default [
@@ -21,17 +22,24 @@ export default [
     source: "https://github.com/appledcrab/MoodMate",
   },
   {
+    img: rec,
+    title: "Recipe Management System",
+    desc: "Developed a comprehensive and user-friendly Recipe Management System using Python, Flask, and SQLAlchemy, featuring robust functionalities such as recipe storage, ingredient management, user interactions, intelligent meal planning, and personalized recommendations, with a seamless integration of a responsive frontend in HTML, CSS, and JavaScript.",
+    demo: "https://drive.google.com/file/d/1T5jYPNhCDLUErSQwRgWW5WqybvcNpSvl/view",
+    source: "https://github.com/daredevilx616/Recipe-Management-System",
+  },
+  {
     img: transit,
     title: "RIDE WISELY aka Transitify",
     desc: "Designed and built a mobile app in Flutter using Dart to promote public transportation by demonstrating its cost-effectiveness and eco-friendliness, incorporating Google Maps, Directions, and Location APIs for real-time distance, travel time, and route options, utilized MARTA API to display public transportation routes, and implemented Uber & Lyft APIs to provide real-time prices, distances, and estimated travel times for various transportation options.",
-    demo: "https://github.com/Motaphe/Transitify/blob/main/README.md",
+    demo: "https://devpost.com/software/transitify",
     source: "https://github.com/Motaphe/Transitify",
   },
   {
     img: Leadless,
     title: "LeadLess - Awareness about Lead Poisoning",
     desc: "Created a website to raise awareness about the harmful effects of lead poisoning, collecting datasets and performing data analysis and visualizations using Pandas, Matplotlib, and Folium to support the argument, and produced line graphs, bar graphs, and various maps, including a choropleth map showing the highest lead emissions from planes per US state using Plotly Express and DataFrame.",
-    demo: "https://github.com/daredevilx616/Hacklytics23/blob/main/analysis.ipynb",
+    demo: "https://devpost.com/software/leadless",
     source: "https://github.com/daredevilx616/Hacklytics23",
   },
   {
