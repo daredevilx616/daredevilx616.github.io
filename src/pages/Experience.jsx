@@ -4,6 +4,21 @@ import Section from "../components/Section";
 export default function Experience() {
   return (
     <Section id="experience" title="Experience">
+            <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
+        <div className="flex-grow-1">
+          <h3 className="mb-0">Computer Science Tutor</h3>
+          <div className="subheading mb-3">Georgia State University</div>
+          <p>
+          <strong>Roles/Responsibilities</strong><br />
+            <li>Delivered instruction for courses like Foundations of Computer Science, Object-Oriented Programming, and Data Structures.</li>
+            <li>Developed and implemented engaging lesson plans and assignments, enhancing student understanding and performance.</li>
+            <li>Provided one-on-one tutoring and support, addressing individual student needs and improving overall academic achievement.</li>
+          </p>
+        </div>
+        <div className="flex-shrink-0">
+          <span className="text-primary">September 2024 - Present</span>
+        </div>
+      </div>
       <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
         <div className="flex-grow-1">
           <h3 className="mb-0">Data Engineering Intern</h3>
@@ -25,6 +40,8 @@ export default function Experience() {
           <h3 className="mb-0">Data Engineering Co-Op</h3>
           <div className="subheading mb-3">The Coca-Cola Company</div>
           <p>
+          <strong>Roles/Responsibilities</strong><br />
+
             <li>Streamlined data workflows with Azure Data Factory and Databricks, achieving a 20% reduction in processing time.</li>
             <li>Developed and deployed ETL pipelines, enhancing operational efficiency.</li>
             <li>Integrated Workday SOAP API, optimizing data retrieval for over 30,000 employees.</li>
@@ -35,21 +52,7 @@ export default function Experience() {
           <span className="text-primary">May 2023 - May 2024</span>
         </div>
       </div>
-      {/* <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
-        <div className="flex-grow-1">
-          <h3 className="mb-0">Microsoft Student Ambassador</h3>
-          <div className="subheading mb-3">Georgia State University</div>
-          <p>
-            <li>Led projects in data engineering, web development, and machine learning.</li>
-            <li>Collaborated with a team to organize university and national-level events.</li>
-            <li>Made core decisions to enhance the community's impact and outreach.</li>
-            <li>Provided mentorship to peers in technical and project management skills.</li>
-          </p>
-        </div>
-        <div className="flex-shrink-0">
-          <span className="text-primary">July 2020 - Present</span>
-        </div>
-      </div> */}
+
     </Section>
   );
 }
