@@ -19,7 +19,7 @@ const SocialIcon = ({ href, icon }) => {
 export default function Home() {
   const icons = [
     {
-      href: "https://www.linkedin.com/in/muhammad-abdullah-nasir",
+      href: "https://www.linkedin.com/in/m-abdullah-nasir",
       icon: <FaLinkedinIn />,
     },
     {
@@ -59,7 +59,7 @@ export default function Home() {
       </div>
 
       <p className="lead mb-4">
-      I am a senior Computer Science student at Georgia State University with a strong focus on Data Engineering. My experience includes internships at The Coca-Cola Company, where I honed my skills in building and automating data pipelines, optimizing data workflows, and enhancing data accuracy using Big Data technologies like Databricks, Azure Data Factory, and Spark SQL. Consistently recognized for my academic achievements, including twice making the Presidential List and four times on the Dean’s List, I am passionate about leveraging data to drive meaningful insights and solutions. With a strong foundation in Python, SQL, and Big Data tools, I am eager to contribute my skills and knowledge to impactful projects.
+      I am currently pursuing Masters in Computer Science student at Georgia State University with a strong focus on Data Engineering. My experience includes internships at Amazon and The Coca-Cola Company, where I honed my skills in building and automating data pipelines, optimizing data workflows, and enhancing data accuracy using Big Data technologies like Databricks, Azure Data Factory, and Spark SQL. Consistently recognized for my academic achievements, including twice making the Presidential List and four times on the Dean’s List, I am passionate about leveraging data to drive meaningful insights and solutions. With a strong foundation in Python, SQL, and Big Data tools, I am eager to contribute my skills and knowledge to impactful projects.
       </p>
 
       <div className="btn-group mb-5">

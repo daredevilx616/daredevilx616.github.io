@@ -4,19 +4,31 @@ import Section from "../components/Section";
 export default function Experience() {
   return (
     <Section id="experience" title="Experience">
-            <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
+        <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
+
         <div className="flex-grow-1">
-          <h3 className="mb-0">Computer Science Tutor</h3>
-          <div className="subheading mb-3">Georgia State University</div>
+          <h3 className="mb-0">Data Engineer Intern</h3>
+          <div className="subheading mb-3">Amazon</div>
           <p>
           <strong>Roles/Responsibilities</strong><br />
-            <li>Delivered instruction for courses like Foundations of Computer Science, Object-Oriented Programming, and Data Structures.</li>
-            <li>Developed and implemented engaging lesson plans and assignments, enhancing student understanding and performance.</li>
-            <li>Provided one-on-one tutoring and support, addressing individual student needs and improving overall academic achievement.</li>
+            <li>Summer 2025 Intern</li>
           </p>
         </div>
         <div className="flex-shrink-0">
-          <span className="text-primary">September 2024 - Present</span>
+          <span className="text-primary">May 2025 - August 2025</span>
+        </div>
+      </div>
+        <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
+        <div className="flex-grow-1">
+          <h3 className="mb-0">Graduate Technology Assistant</h3>
+          <div className="subheading mb-3">Georgia State University</div>
+          <p>
+          <strong>Roles/Responsibilities</strong><br />
+            <li>Providesv IT support to 50+ Graduate Students and 20+ Faculty/Staff members.</li>
+          </p>
+        </div>
+        <div className="flex-shrink-0">
+          <span className="text-primary">January 2025 - Present</span>
         </div>
       </div>
       <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
